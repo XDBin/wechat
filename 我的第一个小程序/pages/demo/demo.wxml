@@ -1,0 +1,5 @@
+<!--pages/demo/demo.wxml-->
+<view >{{mydemo}}</view>
+<view wx:for="{{message}}">{{item}}</view>
+<view bindtap='mydemofunc'>{{mydemo}}</view>
+
